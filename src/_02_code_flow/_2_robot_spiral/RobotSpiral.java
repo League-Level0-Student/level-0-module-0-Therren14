@@ -12,11 +12,12 @@ public class RobotSpiral {
 	public static void main(String[] args) {
 		
 		// Create a new Robot
-		
-		// Set your robot's pen down 
-		
-		// SPEED. Set the robot to go at max speed (100)
+		Robot rob = new Robot();
 
+		// Set your robot's pen down 
+		rob.penDown();
+		// SPEED. Set the robot to go at max speed (100)
+rob.setSpeed(50);
 		// COUNT. Create an int variable that will count how many lines of the spiral we have drawn.
 			//        Start its value as zero.
 
